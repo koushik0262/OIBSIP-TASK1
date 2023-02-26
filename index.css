@@ -1,0 +1,391 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* class */
+
+.answer-open {
+    height: 5vw; width: 65vw;
+    margin-left: auto; margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 1vw;
+}
+
+.answer-open > button
+{
+    height: 5vw; width: 65vw;
+    font-size: 1.5vw;
+    background-color: #303030;
+    color: white;
+    border: 0; 
+    padding: 1vw;
+    text-align: left;
+}
+
+.answer-open > p  { padding: 1vw; }
+
+.answer-open:hover {
+    text-align: left;
+    transition: height 1s;
+    height: 21vw;
+    font-size: 1.5vw;
+    border: 0;
+    background-color: #303030;
+    color: white;
+}
+
+.get-started-button:hover
+{
+    background-color: #f20a15;
+}
+
+.get-started-button {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #e3101a;
+    color: white;
+    border: 0;
+}
+
+.gif-2 {
+    
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: .5vw 3.2vw .5vw .5vw;
+}
+
+.m-t-50px {padding-top: 30px;}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-color: #222222 !important;
+}
+
+.last-section {
+
+    text-align: center;
+    background-color: #030104;
+    color: white;
+    padding-top: 5vw;
+}
+
+.login-button {
+    
+    text-align: center;
+    background-color: #E50914;
+    border: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.search-bar {
+    margin-top: 10px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section-1::before {
+    background: url(./sharingan.jpg) center no-repeat;
+    content: "";
+    position: absolute;
+    height: 95vh; width: 100%;
+    background-color: #030104;
+    z-index: -1;
+    margin: 0%;
+}
+
+.section-1
+{
+    height: 95vh;
+    margin-bottom: 0px;
+} 
+
+.section-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #030104;
+    color: white;
+}
+
+
+.section-1-mid {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
+
+
+.website-name {
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width: 2000px) {
+
+    .search-bar-dim {
+        font-size: 1rem;
+        height: 70px; width: 70%;
+    }
+    .get-started-button-dim {
+        height: 65px; width: 15%;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    .search-bar-dim {
+        font-size: 1rem;
+        height: 70px; width: 70%;
+    }
+    .get-started-button-dim {
+        height: 65px; width: 15%;
+        font-size: 1rem;
+    }
+    
+}
+@media only screen and (max-width: 1050px) {
+
+    .search-bar-dim {
+        font-size: 1rem;
+        height: 60px; width: 70%;
+    }
+    .get-started-button-dim {
+        height: 55px; width: 15%;
+        font-size: 1rem;
+    }
+    .section-1::before {
+        height: 95vh;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .search-bar-dim {
+        font-size: .8rem;
+        height: 50px; width: 65%;
+    }
+    .get-started-button-dim {
+        height: 45px; width: 20%;
+        font-size: .9rem;
+    }
+    .section-1::before { height: 95vh; }
+    .gif {
+        height: 250px;
+        width: auto;
+        border-radius: 100%;
+    }
+    .section-2-dim { height: 60vw; }
+}
+
+@media only screen and (max-width: 850px) {
+    .search-bar-dim {
+        font-size: .7rem;
+        height: 40px; width: 75%;
+    }
+    .get-started-button-dim {
+        height: 35px; width: 25%;
+        font-size: .9rem;
+    }
+        .login-button-dim {
+        height: 31px; width: 70px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .login-button-dim {
+        height: 36px; width: 90px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .f-s-2rem {
+        font-size: 3rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.2rem; }
+    .section-2-dim { height: 35vw; }
+    .section-1::before { height: 85vh; }
+    .gif {
+        height: 220px;
+        width: auto;
+        border-radius: 100%;
+    }
+    .section-2-dim { height: 73vw; }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .login-button-dim {
+    height: 36px; width: 90px;
+    border-radius: 5px;
+    font-size: 1rem;
+    }
+    .f-s-2rem {
+        font-size: 4rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.5rem; }
+}
+
+@media only screen and (max-width: 850px) 
+{
+    .search-bar-dim {
+        font-size: .7rem;
+        height: 40px; width: 75%;
+    }
+    .get-started-button-dim {
+        height: 35px; width: 25%;
+        font-size: .9rem;
+    }
+        .login-button-dim {
+        height: 31px; width: 70px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .login-button-dim {
+        height: 36px; width: 90px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .f-s-2rem {
+        font-size: 3rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.2rem; }
+    .section-2-dim { height: 35vw; }
+    .section-1::before { height: 85vh; }
+    .gif {
+        height: 280px;
+        width: auto;
+        border-radius: 50%;
+    }
+    .section-2-dim { height: 68vw; }
+}
+
+@media only screen and (max-width: 550px) {
+    .dis-sec-2 { text-align: center; }
+    .btn { width: 30%; }
+    .search-bar-dim {
+        font-size: .7rem;
+        height: 35px; width: 85%;
+    }
+    .get-started-button-dim {
+        height: 32px; width: 30%;
+        font-size: .7rem;
+    }
+    .login-button-dim {
+        height: 28px; width: 80px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .f-s-2rem {
+        font-size: 2rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.1rem; }
+    .section-2-dim { height: 80vw; }
+    .gif {
+        height: 200px;
+        width: auto;
+        border-radius: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px)
+{
+    .search-bar-dim {
+        font-size: .7rem;
+        height: 35px; width: 85%;
+    }
+    .get-started-button-dim {
+        height: 32px; width: 30%;
+        font-size: .7rem;
+    }
+    .login-button-dim {
+        height: 28px; width: 80px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .f-s-2rem {
+        font-size: 2rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.1rem; }
+    .section-2-dim { height: 90vw; }
+    .gif {
+        height: 200px;
+        width: auto;
+        border-radius: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 340px) {
+    .search-bar-dim {
+        font-size: .7rem;
+        height: 35px; width: 85%;
+    }
+    .get-started-button-dim {
+        height: 32px; width: 35%;
+        font-size: .7rem;
+    }
+    .login-button-dim {
+        height: 31px; width: 70px;
+        border-radius: 5px;
+        font-size: 1rem; 
+    }
+    .f-s-2rem { font-size: 2rem; font-weight: 550; }
+    .f-s-1rem { font-size: 1.1rem; }
+    .section-2-dim { height: 45vw; }
+}
+
+@media only screen and (min-width: 950px)
+{
+    .dis-sec-2 { display: flex; text-align: center; justify-content: center;}
+    .gif-2-dim { height: 30vh; width: auto; }
+    .gif {
+        height: 250px;
+        width: auto;
+        border-radius: 100%;
+    }
+    .m-l-200px  { margin-left: 170px; }
+    .m-r-200px  { margin-right: 200px; }
+    .m-t-50px {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .section-2-dim {
+        height: 60vh;
+        width: 100%;
+    }
+    .login-button-dim {
+        height: 45px; width: 110px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+    }
+    .f-s-2rem   { font-size: 3rem; }
+}
+
+@media only screen and (min-width: 850px)
+{
+    .login-button-dim {
+        height: 45px; width: 110px;
+        border-radius: 5px;
+        font-size: 1.3rem;
+    }
+    .f-s-2rem {
+        font-size: 3.5rem;
+        font-weight: 550;
+    }
+    .f-s-1rem { font-size: 1.5rem; }
+}
+
+.b-r-30px { border-radius: 30px; }
